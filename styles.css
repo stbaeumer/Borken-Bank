@@ -12,9 +12,29 @@ footer{
 }
 
 header{
-    background-color: lightgrey;
+    background-color: gray;
     font-family: Arial, Helvetica, sans-serif;
-    color: aqua;
-    font-size: larger;
+    color: white;
+    font-size: xx-large;
     text-align: center;
 }
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: DodgerBlue;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
