@@ -1,8 +1,17 @@
 h1{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: large;
+    font-size:xx-large;
     font-weight: 500;
-    color: chartreuse;
+    color:#1ee481;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1ee481;
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
 }
 
 footer{
